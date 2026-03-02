@@ -1,0 +1,14 @@
+{
+  "name": "secrets-demo-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for Demo 020-130 (Secrets in CodeBuild)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/test_app.js",
+    "build": "echo 'Build step complete'"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
